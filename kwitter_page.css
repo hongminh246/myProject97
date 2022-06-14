@@ -1,0 +1,76 @@
+.pageBody {
+    background-color: teal;
+    color: white;
+}
+
+.roomTitle {
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: 200;
+    clear: both;
+}
+
+#logoutButton {
+    background-color: white;
+    color: teal;
+    font-size: 40px;
+    font-family: fantasy;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 40px;
+    margin: 20px;
+    float: right;
+}
+
+.headingDiv {
+    text-align: center;
+}
+
+#outputContainer {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    margin: 50px 20%;
+}
+
+.inputDiv {
+    background-color: white;
+    color: teal;
+    bottom: 0;
+    position: fixed;
+    padding: 20px;
+    text-align: center;
+}
+
+#messageInput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: teal;
+    border-width: 5px;
+    color: teal;
+    font-family: fantasy;
+    font-weight: 200;
+    width: 40%;
+    font-size: 30px;
+    color: teal;
+}
+
+#addMessageButton {
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+    font-family: fantasy;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 50px;
+    margin-left: 40px;
+}
+
+.inputLabel {
+    display: inline;
+    font-size: 40px;
+    font-family: fantasy;
+    margin: 0px 20px;
+}

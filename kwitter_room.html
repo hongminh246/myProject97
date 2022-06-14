@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kwitter</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+</head>
+
+<body class="roomBody">
+    <div class="accountContainer">
+        <span id="usernameLabel"></span>
+        <button id="logoutButton" onclick="user_logout()">Logout</button>
+    </div>
+    <h1 class="roomTitle">Kwitter</h1>
+    <div class="addRoomContainer">
+        <h2 class="addRoomHeading">Add Room</h2>
+        <input id="roomnameInput" placeholder="Room Name">
+        <button id="addRoomButton" onclick="addRoom()">Add Room</button>
+    </div>
+    <div class="roomListContainer">
+        <h2 class="roomListHeading">Trending Rooms</h2>
+        <div id="roomnameList"></div>
+    </div>
+    <script src="kwitter_room.js"></script>
+    <script>
+        user_name = localStorage.getItem("user_name");
+        document.getElementById("usernameLabel").innerHTML = user_name;
+    </script>
+</body>
+
+</html>

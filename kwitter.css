@@ -1,0 +1,57 @@
+.loginBody {
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+.loginContainer {
+    background-color: white;
+    border-radius: 20px;
+    color: teal;
+    width: 60%;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+#loginInput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: teal;
+    border-width: 5px;
+    color: teal;
+    font-family: fantasy;
+    font-weight: 200;
+    width: 40%;
+    font-size: 30px;
+    color: teal;
+}
+
+.loginHeading {
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+#loginButton {
+    background-color: white;
+    color: teal;
+    border-style: none;
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 200;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    width: 20%;
+}
